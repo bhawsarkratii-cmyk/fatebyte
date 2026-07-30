@@ -1,1 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
 
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#fortune {
+    margin-top: 40px;
+}
