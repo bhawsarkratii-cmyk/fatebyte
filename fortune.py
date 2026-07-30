@@ -9,6 +9,7 @@ fortunes = [
     "Something exciting is coming your way! ✨",
     "Good things take time. Keep going! 🌸",
     "Your hard work will pay off! 💫"
+    "you will eat your favourite cheescake today"
 ]
 
 @app.route("/")
