@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fortune Generator 🔮</title>
+</head>
 
+<body>
+
+    <h1>🔮 Fortune Generator</h1>
+
+    <p>tap in bestie to see if you are cooked or cooking!</p>
+
+    <button onclick="getFortune()">Get My Fortune</button>
+
+    <h2 id="fortune"></h2>
+
+    <script>
+        function getFortune() {
+            fetch("/fortune")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("fortune").innerText = data.fortune;
+                });
+        }
+    </script>
+
+</body>
+</html>
